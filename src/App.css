@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+*{margin:0;padding:0;box-sizing:border-box} body{font-family:Inter,system-ui,sans-serif; background:#f8fafc}
+.top-nav{background:#0f172a;color:white;display:flex;justify-content:space-between;padding:18px 30px;align-items:center}
+.logo{font-weight:800;letter-spacing:1px} .tag{font-size:11px;opacity:0.7}
+.main-grid{display:flex; gap:20px; max-width:1250px; margin:20px auto; padding:0 20px}
+.left{flex:1} .business-banner{background:linear-gradient(135deg,#2563eb,#0f172a); color:white; padding:25px; border-radius:16px; margin-bottom:20px}
+.business-banner span{background:#22c55e;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:700}
+.business-banner h1{margin:12px 0;font-size:26px} .content-card{background:white;padding:25px;border-radius:16px;box-shadow:0 4px 20px rgba(0,0,0,0.05)}
+.content-card ul{margin:15px 0;list-style:none} .content-card li{padding:8px 0;border-bottom:1px solid #f1f5f9}
+.cta{background:#111827;color:white;padding:20px;border-radius:12px;margin-top:20px;text-align:center}
+.cta button{background:#25D366;color:white;border:none;padding:12px 20px;border-radius:8px;font-weight:700;margin-top:10px;cursor:pointer}
+.right-rect{width:300px;background:white;border:2px solid #0f172a;border-radius:16px;padding:20px;height:fit-content;position:sticky;top:20px}
+.right-rect nav{display:flex;flex-direction:column;gap:10px;margin:15px 0}
+.right-rect nav a{background:#eef2ff;padding:12px;border-radius:8px;text-decoration:none;color:#0f172a;font-weight:600}
+.right-rect nav a:hover{background:#0f172a;color:white}
+.rect-info{font-size:12px;color:#64748b;margin-top:10px} .paybill-mini{background:#f0fdf4;border:1px solid #22c55e;padding:10px;border-radius:8px;margin-top:15px}
+.money-bar{background:#020617;color:white;padding:30px 20px;margin-top:30px}
+.money-bar h2{text-align:center;margin-bottom:20px} .money-scroll{display:flex;gap:15px;overflow-x:auto}
+.money-card{min-width:260px;background:white;color:#111;padding:16px;border-radius:12px}
+.money-card h4{color:#2563eb;font-size:14px;margin-bottom:6px} .money-card p{font-size:12.5px;line-height:1.4}
+.bottom-pay{background:#000;color:#94a3b8;padding:20px;text-align:center}
+.pay-line{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;align-items:center}
+.p{background:#1e293b;color:white;padding:6px 12px;border-radius:20px;font-size:12px}
+.p.saf{background:#22c55e;font-weight:700} .copy{margin-top:12px;font-size:11px}
+.wa-widget{position:fixed;bottom:20px;right:20px;z-index:999}
+.wa-avatar{width:62px;height:62px;border-radius:50%;border:3px solid #25D366;background:white;cursor:pointer;overflow:hidden}
+.wa-avatar img{width:100%;height:100%;object-fit:cover}
+.wa-popup{width:320px;background:white;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,0.2);margin-bottom:10px;overflow:hidden}
+.wa-head{background:#0f172a;color:white;display:flex;gap:10px;padding:12px;align-items:center}
+.wa-head img{width:38px;height:38px;border-radius:50%} .wa-head span{display:block;font-size:10px;opacity:0.7}
+.wa-head button{margin-left:auto;background:none;border:none;color:white;font-size:20px;cursor:pointer}
+.wa-body{padding:15px} .wa-msg{background:#dcfce7;padding:10px;border-radius:10px;font-size:13px}
+.wa-action{display:block;margin:10px;background:#25D366;color:white;text-align:center;padding:12px;border-radius:8px;text-decoration:none;font-weight:700}
+@media(max-width:900px){.main-grid{flex-direction:column} .right-rect{width:100%;position:relative}}
