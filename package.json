@@ -1,8 +1,8 @@
 {
   "name": "wanaosu",
   "version": "0.1.0",
+  "homepage": "https://Throbie.github.io/wanaosu.co.ke",
   "private": true,
-  "homepage": "https://wanaosu.co.ke",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
