@@ -46,7 +46,7 @@ function App() {
           <div className="business-banner">
             <span>🔵 OPEN FOR BUSINESS</span>
             <h1>We Are Ready To Do Business With You!</h1>
-            <p>At <strong>Wanaosu.co.ke</strong>, we are open and ready to partner with <strong>many people</strong> - individuals, startups, SMEs and corporates. If it involves <strong>Technology</strong>, we are your growth partner. We make technology work for your business.</p>
+            <p>At <strong>Wanaosu</strong>, we are open and ready to partner with <strong>many people</strong> - individuals, startups, SMEs and corporates. If it involves <strong>Technology</strong>, we are your growth partner. We make technology work for your business.</p>
           </div>
 
           <div className="content-card">
@@ -93,7 +93,7 @@ function App() {
 
       {/* BOTTOM HORIZONTAL BAR */}
       <section className="money-bar">
-        <h2>Key Strategies to Make Money from Your Website</h2>
+        <h2>Find us on our Socials</h2>
         <div className="money-scroll">
           {strategies.map((s,i)=>(
             <div key={i} className="money-card">
