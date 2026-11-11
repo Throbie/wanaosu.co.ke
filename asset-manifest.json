@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/wanaosu.co.ke/static/css/main.cc8c2606.css",
-    "main.js": "/wanaosu.co.ke/static/js/main.17245f6f.js",
+    "main.js": "/wanaosu.co.ke/static/js/main.c85bfcb9.js",
     "static/js/453.3ac8f7da.chunk.js": "/wanaosu.co.ke/static/js/453.3ac8f7da.chunk.js",
+    "static/media/avatar.png": "/wanaosu.co.ke/static/media/avatar.f4b9b96063c563e04177.png",
     "index.html": "/wanaosu.co.ke/index.html",
     "main.cc8c2606.css.map": "/wanaosu.co.ke/static/css/main.cc8c2606.css.map",
-    "main.17245f6f.js.map": "/wanaosu.co.ke/static/js/main.17245f6f.js.map",
+    "main.c85bfcb9.js.map": "/wanaosu.co.ke/static/js/main.c85bfcb9.js.map",
     "453.3ac8f7da.chunk.js.map": "/wanaosu.co.ke/static/js/453.3ac8f7da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc8c2606.css",
-    "static/js/main.17245f6f.js"
+    "static/js/main.c85bfcb9.js"
   ]
 }
